@@ -58,7 +58,7 @@
     .header{
         max-width: 768px;
         padding: 30px 0px 45px;
-        background-color: #082f6a;
+        
     }
     
     .header__lead{
@@ -101,11 +101,11 @@
     .header{
         max-width: 320px;
         padding: 20px 0px 32px;
-        background-color: #2e6a08;
+        
     }
     
     .header__lead{
-        margin-top: 90px;
+        margin-top: 50px;
         height: 384px;
         width: 320px;
     }

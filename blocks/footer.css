@@ -22,7 +22,7 @@
     .footer{
         max-width: 768px;
         padding-top: 44px;
-        background-color: #082f6a;
+        
     }
     
     
@@ -32,6 +32,6 @@
     .footer{
         max-width: 320px;
         padding-top: 32px;
-        background-color: #2e6a08;
+        
     }
 }
