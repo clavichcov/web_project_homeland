@@ -1,0 +1,126 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    background-color: #2A2C2F;
+    padding: 46px 0px 46px 148px;
+    max-width: 100%;
+    color:#FFFFFF;
+    /*max-height: 800px;*/
+    
+}
+
+.intro__content{
+    height: 607px;
+    width: 830px;
+}
+
+.intro__title{
+    display: flex;
+    width: 830px;
+    margin: 0;
+    font-family: 'Inter Black', Inter,  sans-serif;
+    font-size: 54px;
+    line-height: 58px;
+}
+
+.intro__text_phrase{
+    margin-top: 40px;
+    margin-bottom: 0;
+    width: 738px;
+    font-size: 24px;
+    line-height: 34px;
+}
+.intro__text_phrase_autor{
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 732px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+}
+.intro__text{
+    margin-top: 40px;
+    margin-bottom: 0;
+    width: 722px;
+    font-size: 16px;
+    line-height: 163%;
+
+}
+
+@media screen and (max-width: 768px){
+    .intro{
+        max-width: 768px;
+        background-color: #082f6a;
+        padding: 45px 24px 44px 24px;
+               
+    }
+    
+    .intro__content{
+        height: 573px;
+        width: 720px;
+    }
+    
+    .intro__title{
+        
+        width: 707px;
+        font-size: 45px;
+        line-height: 49px;
+    }
+    
+    .intro__text_phrase{
+        margin-top: 50px;
+        width: 720px;
+        
+    }
+    .intro__text_phrase_autor{
+        margin-top: 0px;
+        margin-bottom: 0;
+        width: 720px;
+        
+    }
+    .intro__text{
+        margin-top: 32px;
+        margin-bottom: 0;
+        width: 720px;
+           
+    }
+}
+
+@media screen and (max-width:320px){
+    .intro{
+        max-width: 320px;
+        background-color: #2e6a08;
+        padding: 32px 16px 32px 16px;
+               
+    }
+    
+    .intro__content{
+        height: 288px;
+        width: 1033px;
+    }
+    
+    .intro__title{
+        
+        width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    
+    .intro__text_phrase{
+        margin-top: 40px;
+        width: 288px;
+        line-height: 30px;
+        
+    }
+    .intro__text_phrase_autor{
+        margin-top: 10px;
+        margin-bottom: 0;
+        width: 288px;
+        
+    }
+    .intro__text{
+       
+        width: 288px;
+           
+    }
+}

@@ -1,0 +1,143 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #2A2C2F;
+    align-items: center;
+    padding: 34px 0px 46px;
+    max-width: 100%;
+    color: #FFFFFF;
+    
+}
+
+.header__lead{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 91.06px;
+    max-height: 100%;
+    height: 983px;
+    width: 984px;
+}
+
+.header__logo{
+    display: flex;
+    height: 68.94px;
+    width: 254.84px;
+}
+
+.header__title {
+    display: flex;
+    margin: 0;
+    height: 200px;
+    width: 720px;
+    font-family: 'Inter Black', Inter,  sans-serif;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+}   
+
+.header__subtitle{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 0;
+    width: 720px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.header__image {
+    display: flex;
+    margin-top: 64px;
+    width: 984px;
+    height: 615px;
+    
+}
+  
+@media screen and (max-width:768px){
+    .header{
+        max-width: 768px;
+        padding: 30px 0px 45px;
+        background-color: #082f6a;
+    }
+    
+    .header__lead{
+        margin-top: 90px;
+        height: 765px;
+        width: 768px;
+    }
+    
+    .header__logo{
+        display: flex;
+        height: 66px;
+        width: 254px;
+    }
+    
+    .header__title {
+        
+        height: 158px;
+        width: 530px;
+        font-size: 75px;
+        line-height: 79px;
+        
+    }   
+    
+    .header__subtitle{
+        
+        margin-top: 25px;
+        
+    }
+    
+    .header__image {
+        
+        margin-top: 30px;
+        width: 768px;
+        height: 480px;
+        
+    }
+}
+
+@media screen and (max-width:320px){
+    .header{
+        max-width: 320px;
+        padding: 20px 0px 32px;
+        background-color: #2e6a08;
+    }
+    
+    .header__lead{
+        margin-top: 90px;
+        height: 384px;
+        width: 320px;
+    }
+    
+    .header__logo{
+        display: flex;
+        height: 52px;
+        width: 188px;
+    }
+    
+    .header__title {
+        
+        height: 88px;
+        width: 228px;
+        font-size: 40px;
+        line-height: 44px;
+        
+    }   
+    
+    .header__subtitle{
+        height: 40px;
+        width: 288px;
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .header__image {
+        
+        margin-top: 40px;
+        width: 320px;
+        height: 200px;
+        
+    }
+}
