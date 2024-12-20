@@ -5,17 +5,18 @@
     padding: 46px 0px 46px 148px;
     max-width: 100%;
     color:#FFFFFF;
-    /*max-height: 800px;*/
+    
     
 }
 
 .intro__content{
     
     width: 830px;
+        
 }
 
 .intro__title{
-    display: flex;
+    
     width: 830px;
     margin: 0;
     font-family: 'Inter Black', Inter,  sans-serif;
@@ -24,6 +25,7 @@
 }
 
 .intro__textphrase{
+    
     margin-top: 40px;
     margin-bottom: 0;
     width: 738px;
@@ -31,6 +33,7 @@
     line-height: 34px;
 }
 .intro__textautor{
+    
     margin-top: 10px;
     margin-bottom: 0;
     width: 732px;
@@ -39,6 +42,7 @@
     text-align: right;
 }
 .intro__text{
+    
     margin-top: 40px;
     margin-bottom: 0;
     width: 722px;
@@ -55,7 +59,7 @@
     }
     
     .intro__content{
-        height: 573px;
+        /*height: 573px;*/
         width: 720px;
     }
     
@@ -87,14 +91,15 @@
 
 @media screen and (max-width:320px){
     .intro{
+        
         max-width: 320px;
         padding: 32px 16px 32px 16px;
                
     }
     
     .intro__content{
-        height: 288px;
-        width: 1033px;
+        display: block;
+        width: 288px;
     }
     
     .intro__title{
@@ -111,13 +116,14 @@
         
     }
     .intro__textautor{
+        
         margin-top: 10px;
         margin-bottom: 0;
         width: 288px;
         
     }
     .intro__text{
-       
+        
         width: 288px;
            
     }
