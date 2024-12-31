@@ -79,8 +79,8 @@
     margin-top: 0;
     margin-bottom: 8px;
     font-size: 12px;
-    line-height: auto;
-    letter-spacing: 12%;
+    line-height: normal;
+    
 }
 
 .places__artist{
