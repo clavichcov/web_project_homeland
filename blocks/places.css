@@ -75,7 +75,7 @@
     grid-area: places__place_paragraph-3;
 }
 
-.url-heading{
+.places__url-heading{
     margin-top: 0;
     margin-bottom: 8px;
     font-size: 12px;
@@ -83,13 +83,13 @@
     letter-spacing: 12%;
 }
 
-.artist{
+.places__artist{
     margin: 0;
     font-size: 18px;
     line-height: 22px;
 }
 
-.frame{
+.places__frame{
     width: 289px;
     height: 48px;
     border-radius: 4px;
@@ -100,7 +100,7 @@
     box-shadow: 5px 5px 10px #000000;
 }
 
-.frame:hover{
+.places__frame:hover{
     background:  linear-gradient(90deg, #0278fe40 0%, #003a7b40 100%);
 }
 
