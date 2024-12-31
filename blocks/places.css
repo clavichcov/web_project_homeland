@@ -96,6 +96,7 @@
     margin-top: 48px;
     grid-area: frame;
     color: #FFFFFF;
+    border: 0;
     background:  linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     box-shadow: 5px 5px 10px #000000;
 }
@@ -177,6 +178,7 @@
     }
     
     .places__image{
+        margin-top: 30px;
         width: 320px;
         height: 320px;
         box-shadow: none;        
@@ -186,7 +188,12 @@
     
     .places__website{
         width: 288px;
-        margin-top: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         
+    }
+
+    .places__frame{
+        margin: 30px 16px 0px 16px;
     }
 }
