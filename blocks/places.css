@@ -8,13 +8,13 @@
     color:#FFFFFF;
 }
 
-.places__place{
+.places__container{
     display: grid;
     grid-template-rows: repeat(4 , auto);
     grid-gap: 80px;
 }
 
-.places__place_city{
+.places__city{
     display: grid;
     grid-template-columns: 460px 484px;
     
@@ -28,7 +28,7 @@
     margin-left: 40px;
 }
 
-.places__place_title{
+.places__title{
     margin: 0;
     width: 460px;
     font-family: 'Inter Black', Inter,  sans-serif;
@@ -47,32 +47,32 @@
     opacity: 0.5;
 }
 
-.places__place_website{
+.places__website{
     width: 484px;
     margin-top: 80px;
     margin-bottom: 48px;
     
 }
 
-.places__place_paragraph{
+.places__paragraph{
     margin: 0;
     font-size: 18px;
     line-height: 163%;
     
 }
 
-.places__place_paragraph-1{
-    grid-area: places__place_paragraph-1;
+.places__paragraph_1{
+    grid-area: places__paragraph_1;
 }
 
-.places__place_paragraph-2{
+.places__paragraph_2{
     margin-top: 25px;
-    grid-area: places__place_paragraph-2;
+    grid-area: places__paragraph_2;
 }
 
-.places__place_paragraph-3{
+.places__paragraph_3{
     margin-top: 25px;
-    grid-area: places__place_paragraph-3;
+    grid-area: places__paragraph_3;
 }
 
 .places__url-heading{
@@ -96,12 +96,12 @@
     margin-top: 48px;
     grid-area: frame;
     color: #FFFFFF;
-    background:  linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
+    background:  linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     box-shadow: 5px 5px 10px #000000;
 }
 
 .places__frame:hover{
-    background:  linear-gradient(90deg, #0278fe40 0%, #003a7b40 100%);
+    background:  linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 
@@ -112,7 +112,7 @@
     }
     
       
-    .places__place_city{
+    .places__city{
         display: grid;
         grid-template-columns: 340px 352px;
         
@@ -123,7 +123,7 @@
         margin-left: 28px;
     }
     
-    .places__place_title{
+    .places__title{
         
         margin-top: 22px;
         width: 340px;
@@ -139,7 +139,7 @@
     
     
     
-    .places__place_website{
+    .places__website{
         width: 352px;
         margin-top: 0px;
         
@@ -156,7 +156,7 @@
     }
     
       
-    .places__place_city{
+    .places__city{
         display: grid;
         grid-template-columns: 320px;
         
@@ -167,7 +167,7 @@
         margin-left: 0px;
     }
     
-    .places__place_title{
+    .places__title{
         margin-top: 0;
         margin-left: 16px;
         margin-right: 16px;
@@ -184,7 +184,7 @@
     
     
     
-    .places__place_website{
+    .places__website{
         width: 288px;
         margin-top: 0px;
         
