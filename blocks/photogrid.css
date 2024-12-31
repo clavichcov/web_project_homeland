@@ -1,0 +1,103 @@
+.photogrid{
+    display: flex;
+    align-content: center;
+    padding: 59px 0px 46px 0px;
+    background-color: #2A2C2F;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.photogrid__photo{
+    display: grid;
+    grid-template-columns: repeat(4 , 284px);
+    grid-template-rows: repeat(2 , 213px);
+    grid-template-areas: 
+    "photogrid__photo1 photogrid__photo2 photogrid__photo3 photogrid__photo4"
+    "photogrid__photo5 photogrid__photo6 photogrid__photo7 photogrid__photo8";
+    grid-gap: 16px 16px;
+    
+}
+
+.photogrid__photo1{
+    grid-area: "photogrid__photo1";
+    
+}
+
+.photogrid__photo2{
+    grid-area: "photogrid__photo2";
+}
+
+.photogrid__photo3{
+    grid-area: "photogrid__photo3";
+}
+
+.photogrid__photo4{
+    grid-area: "photogrid__photo4";
+}
+
+.photogrid__photo5{
+    grid-area: "photogrid__photo5";
+}
+
+.photogrid__photo6{
+    grid-area: "photogrid__photo6";
+}
+
+.photogrid__photo7{
+    grid-area: "photogrid__photo7";
+}
+
+.photogrid__photo8{
+    grid-area: "photogrid__photo8";
+}
+
+
+@media screen and (max-width: 768px){
+
+    .photogrid{
+        
+        padding: 32px 24px 44px 24px;
+        
+    }
+
+    .photogrid__photo{
+        display: grid;
+        grid-template-columns: repeat(2 , 352px);
+        grid-template-rows: repeat(4 , 264px);
+        grid-template-areas: 
+        "photogrid__photo1 photogrid__photo2"
+        "photogrid__photo3 photogrid__photo4"
+        "photogrid__photo5 photogrid__photo6"
+        "photogrid__photo7 photogrid__photo8";
+        grid-gap: 16px 16px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .photogrid{
+        
+        padding: 19px 16px 31px 16px;
+        
+    }
+
+    .photogrid__photo{
+        display: grid;
+        grid-template-columns: repeat(1 , 288px);
+        grid-template-rows: repeat(8 , 216px);
+        grid-template-areas: 
+        "photogrid__photo1" 
+        "photogrid__photo2"
+        "photogrid__photo3" 
+        "photogrid__photo4"
+        "photogrid__photo5"
+        "photogrid__photo6"
+        "photogrid__photo7" 
+        "photogrid__photo8";
+        grid-gap: 12px;
+        height: 100%;
+        width: 100%;
+    }
+}
